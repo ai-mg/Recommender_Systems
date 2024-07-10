@@ -1,5 +1,6 @@
 # Recommender_Systems
-**Manu Gupta**
+
+This project includes implementations of SVD, ItemKNN, Random, and Popularity-based recommenders to recoommend songs to users based on their interaction history and demographic data.
 
 ## Methods Implemented
 We explored Singular Value Decomposition (SVD), ItemKNN, Random, and Popularity-based recommenders for the provided LFM challenge data (http://www.cp.jku.at/datasets/LFM-2b/). The evaluation metric used was the normalized Discounted Cumulative Gain (nDCG).
