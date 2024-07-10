@@ -14,14 +14,10 @@ We first concatenated the provided train and test interactions data. We applied 
 ## Performance and Evaluation
 The SVD recommender showed variable nDCG scores, with some users achieving high scores while others had zero. This variability suggests that user-item interaction sparsity impacts performance. ItemKNN also underperformed for several users, however performing well for users with high interactions. The primary reason for poor nDCG scores for some users is the sparsity of user-item interactions. Users with fewer interactions have less data to base recommendations on, leading to less accurate predictions. Additionally, the fixed number of recommendations might not align with the actual preferences of these users.
 
-![Hyperparameter Tuning Performance with different latent factors for SVD and number of neighbors for ItemKNN](![hyperparameter_tuning_svd](https://github.com/ai-mg/Recommender_Systems/assets/43701330/e761f73e-cbfd-417b-a8d5-82614502275b)
-)
+<img src="figures/hyperparameter_tuning_svd.png" alt="Hyperparameter Tuning Performance for SVD" width="400"/>
 
-![Hyperparameter Tuning Performance for ItemKNN](![hyperparameter_tuning_svd](https://github.com/ai-mg/Recommender_Systems/assets/43701330/7d7dcfb1-fc21-4605-a34f-d8f10c457073)
-)
+<img src="figures/hyperparameter_tuning_ItemKNN_a.png" alt="Hyperparameter Tuning Performance for ItemKNN" width="400"/>  <img src="figures/hyperparameter_tuning_ItemKNN_b.png" alt="Hyperparameter Tuning Performance for ItemKNN" width="400"/>
 
-![Hyperparameter Tuning Performance for ItemKNN](![hyperparameter_tuning_ItemKNN_b](https://github.com/ai-mg/Recommender_Systems/assets/43701330/8d5146cb-cecd-4293-a06f-d4df9b14e2f0)
-)
 
 ## Overall nDCG Values for Different Recommender Systems on Test Users
 
